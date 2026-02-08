@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: #1e3a8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+#gameCanvas {
+    border: 4px solid #fff;
+    border-radius: 12px;
+    background-color: #0b1f50;
+}
+
+#mapContainer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+}
